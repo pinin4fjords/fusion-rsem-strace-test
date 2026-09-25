@@ -1,7 +1,7 @@
 nextflow.enable.dsl=2
 
 params.outdir = 'results'
-params.n_records = 1000000
+params.n_records = 300000
 
 process RSEM_STRACE_TEST {
     container 'community.wave.seqera.io/library/rsem_star:5acb4e8c03239c32'
